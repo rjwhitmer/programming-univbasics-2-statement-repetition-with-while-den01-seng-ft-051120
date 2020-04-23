@@ -1,1 +1,9 @@
-# Write your code here
+ball_drop = 10
+
+while ball_drop > 0 do
+  puts ball_drop
+  ball_drop -= 1
+  if ball_drop == 1
+    puts "Happy New Year!"
+    break
+end
