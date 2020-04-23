@@ -7,4 +7,5 @@ while ball_drop > 0 do
   ball_drop -= 1
   if ball_drop == 1
     puts "Happy New Year!"
+  end
 end
